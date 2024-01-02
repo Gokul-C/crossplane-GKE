@@ -46,8 +46,8 @@ metadata:
 spec:
   forProvider:
     initialNodeCount: 1
-    network: "projects/hpe-managed-services/global/networks/crossplane-vpc"
-    subnetwork: "projects/hpe-managed-services/regions/us-central1/subnetworks/crossplane-subnet"
+    network: "projects/<project-name>/global/networks/crossplane-vpc"
+    subnetwork: "projects/<project-name>/regions/us-central1/subnetworks/crossplane-subnet"
     location: us-central1
     monitoringService: monitoring.googleapis.com/kubernetes
   writeConnectionSecretToRef:
